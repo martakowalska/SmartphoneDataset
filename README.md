@@ -16,7 +16,8 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 ==================================================================
 
-The goal of the Getting and cleaning data Course Project is to create run_analysis.R that does the following: 
+The goal of the Getting and cleaning data Course Project is to create run_analysis.R that does the following:
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
