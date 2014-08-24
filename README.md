@@ -27,7 +27,7 @@ The goal of the Getting and cleaning data Course Project is to create run_analys
 
 run_analysis.R script description:
 ======================================
-1. In order to accomplish step 1, following commands were written:
+In order to accomplish step 1, following commands were written:
 - creating directory (if doesn't exist) and downloading data to my working directory,
 - opening connection to a downloaded data and unzip file,
 - reading test and train activities,
@@ -41,17 +41,22 @@ run_analysis.R script description:
 - creating vector with column names,
 - adding column names to the data table.
 - uploading the tidy data set to a "1stDataSet.txt" file.
-2. In order to accomplish step 2, following commands were written:
+ 
+
+In order to accomplish step 2, following commands were written:
 - creating vector with column names containing "mean" and "std" values, according to information provided in source features_info.txt file ("The set of variables that were estimated from these signals are: mean(): Mean value, std(): Standard deviation),
 - removing all irrelevant columns, keeping only necessary ones. 
-3. In order to accomplish step 3, following commands were written:
+
+In order to accomplish step 3, following commands were written:
 - reading activity labels,
 - changing activity column class in data from integer to a factor and setting factor labels as activity labels, so that we can see activities in the table, not integers.
-4. In order to accomplish step 4, following commands were written:
+
+In order to accomplish step 4, following commands were written:
 - changing abbreviations to full words in variable names,
 - removing "-" and "()"
 - I've decided to keep first letter of a new word as upper case, because format "TimeBodyAccelerationMeanYaxis" is more readible than "timebodyaccelerationmeanyaxis".
-5. In order to accomplish step 5, following commands were written:
+
+In order to accomplish step 5, following commands were written:
 - melting data table, where first 2 columns are id variables, and the rest are measure variables,
 - reshaping data and counting means to create a tidy data set,
 - uploading the tidy data set to a "2ndDataSet.txt" file.
